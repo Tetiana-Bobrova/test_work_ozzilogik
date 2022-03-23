@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Edit_csv(char const*, char const*):Csv.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "new_str[j]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Rand_csv(int):Csv.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Arr[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
