@@ -24,19 +24,19 @@
 
 int main() {
     
-   if(Rand_csv("/Users/user/Desktop/Stepik/test_work_ozzilogik/Databases/Databases/Rand.csv", N)){
+   if(Rand_csv("/Users/user/Desktop/Stepik/test_work_ozzilogik/DataBase/DataBase/Rand.csv", N)){
         cout << "The generated csv file was successfully created!" << endl;
     } else{
         cout << "Error creating generated csv file" << endl;
     }
     
-    Edit_csv("/Users/user/Desktop/Stepik/test_work_ozzilogik/Databases/Databases/Rand.csv","/Users/user/Desktop/Stepik/test_work_ozzilogik/Databases/Databases/Ed.csv");
+    Edit_csv("/Users/user/Desktop/Stepik/test_work_ozzilogik/DataBase/DataBase/Rand.csv","/Users/user/Desktop/Stepik/test_work_ozzilogik/DataBase/DataBase/Ed.csv");
     
     
-    Db_Open("/Users/user/Desktop/Stepik/test_work_ozzilogik/Databases/Databases/Second.db");
+  /*  Db_Open("/Users/user/Desktop/Stepik/test_work_ozzilogik/Databases/Databases/Second.db");
     Db_CreateTable();
     
     
-    Db_Close();
+    Db_Close();*/
     return 0;
 }

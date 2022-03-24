@@ -20,7 +20,7 @@ void Db_Open(const char *path)
     if(res != SQLITE_OK)
     {
         sqlite3_close(db);
-        throw string(path) + "open failed:" + sqlite3_errmsg(db);
+/        throw string(path) + "open failed:" + sqlite3_errmsg(db);
     }
 }
  

@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE8922F327E88A05000111FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE8922F227E88A05000111FB /* main.cpp */; };
-		CE8922FD27E9D187000111FB /* Csv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE8922FC27E9D187000111FB /* Csv.cpp */; };
-		CE89234227EA56F6000111FB /* Sqlite_.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE89234127EA56F6000111FB /* Sqlite_.cpp */; };
-		CE89234627EA5725000111FB /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = CE89234427EA5725000111FB /* sqlite3.c */; };
+		CE66DEE227EC550000B88348 /* Csv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE66DEDB27EC550000B88348 /* Csv.cpp */; };
+		CE66DEE427EC550000B88348 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE66DEE027EC550000B88348 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		CE8922ED27E88A05000111FB /* CopyFiles */ = {
+		CE66DECE27EC54B800B88348 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +24,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE8922EF27E88A05000111FB /* Databases */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Databases; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8922F227E88A05000111FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		CE8922FC27E9D187000111FB /* Csv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Csv.cpp; sourceTree = "<group>"; };
-		CE8922FE27E9D4B0000111FB /* Csv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Csv.hpp; sourceTree = "<group>"; };
-		CE89234127EA56F6000111FB /* Sqlite_.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sqlite_.cpp; sourceTree = "<group>"; };
-		CE89234327EA5702000111FB /* Sqlite_.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Sqlite_.hpp; sourceTree = "<group>"; };
-		CE89234427EA5725000111FB /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
-		CE89234527EA5725000111FB /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		CE66DED027EC54B800B88348 /* DataBase */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataBase; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66DEDB27EC550000B88348 /* Csv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Csv.cpp; sourceTree = "<group>"; };
+		CE66DEDD27EC550000B88348 /* Csv.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Csv.hpp; sourceTree = "<group>"; };
+		CE66DEE027EC550000B88348 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE8922EC27E88A05000111FB /* Frameworks */ = {
+		CE66DECD27EC54B800B88348 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,71 +41,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE8922E627E88A04000111FB = {
+		CE66DEC727EC54B800B88348 = {
 			isa = PBXGroup;
 			children = (
-				CE8922F127E88A05000111FB /* Databases */,
-				CE8922F027E88A05000111FB /* Products */,
+				CE66DED227EC54B800B88348 /* DataBase */,
+				CE66DED127EC54B800B88348 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CE8922F027E88A05000111FB /* Products */ = {
+		CE66DED127EC54B800B88348 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE8922EF27E88A05000111FB /* Databases */,
+				CE66DED027EC54B800B88348 /* DataBase */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE8922F127E88A05000111FB /* Databases */ = {
+		CE66DED227EC54B800B88348 /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				CE89234427EA5725000111FB /* sqlite3.c */,
-				CE89234527EA5725000111FB /* sqlite3.h */,
-				CE89234327EA5702000111FB /* Sqlite_.hpp */,
-				CE89234127EA56F6000111FB /* Sqlite_.cpp */,
-				CE8922FE27E9D4B0000111FB /* Csv.hpp */,
-				CE8922F227E88A05000111FB /* main.cpp */,
-				CE8922FC27E9D187000111FB /* Csv.cpp */,
+				CE66DEDB27EC550000B88348 /* Csv.cpp */,
+				CE66DEDD27EC550000B88348 /* Csv.hpp */,
+				CE66DEE027EC550000B88348 /* main.cpp */,
 			);
-			path = Databases;
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE8922EE27E88A05000111FB /* Databases */ = {
+		CE66DECF27EC54B800B88348 /* DataBase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8922F627E88A05000111FB /* Build configuration list for PBXNativeTarget "Databases" */;
+			buildConfigurationList = CE66DED727EC54B800B88348 /* Build configuration list for PBXNativeTarget "DataBase" */;
 			buildPhases = (
-				CE8922EB27E88A05000111FB /* Sources */,
-				CE8922EC27E88A05000111FB /* Frameworks */,
-				CE8922ED27E88A05000111FB /* CopyFiles */,
+				CE66DECC27EC54B800B88348 /* Sources */,
+				CE66DECD27EC54B800B88348 /* Frameworks */,
+				CE66DECE27EC54B800B88348 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Databases;
-			productName = Databases;
-			productReference = CE8922EF27E88A05000111FB /* Databases */;
+			name = DataBase;
+			productName = DataBase;
+			productReference = CE66DED027EC54B800B88348 /* DataBase */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE8922E727E88A04000111FB /* Project object */ = {
+		CE66DEC827EC54B800B88348 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					CE8922EE27E88A05000111FB = {
+					CE66DECF27EC54B800B88348 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CE8922EA27E88A04000111FB /* Build configuration list for PBXProject "Databases" */;
+			buildConfigurationList = CE66DECB27EC54B800B88348 /* Build configuration list for PBXProject "DataBase" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,32 +109,30 @@
 				en,
 				Base,
 			);
-			mainGroup = CE8922E627E88A04000111FB;
-			productRefGroup = CE8922F027E88A05000111FB /* Products */;
+			mainGroup = CE66DEC727EC54B800B88348;
+			productRefGroup = CE66DED127EC54B800B88348 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE8922EE27E88A05000111FB /* Databases */,
+				CE66DECF27EC54B800B88348 /* DataBase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE8922EB27E88A05000111FB /* Sources */ = {
+		CE66DECC27EC54B800B88348 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8922FD27E9D187000111FB /* Csv.cpp in Sources */,
-				CE89234227EA56F6000111FB /* Sqlite_.cpp in Sources */,
-				CE8922F327E88A05000111FB /* main.cpp in Sources */,
-				CE89234627EA5725000111FB /* sqlite3.c in Sources */,
+				CE66DEE227EC550000B88348 /* Csv.cpp in Sources */,
+				CE66DEE427EC550000B88348 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		CE8922F427E88A05000111FB /* Debug */ = {
+		CE66DED527EC54B800B88348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -203,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		CE8922F527E88A05000111FB /* Release */ = {
+		CE66DED627EC54B800B88348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,19 +243,17 @@
 			};
 			name = Release;
 		};
-		CE8922F727E88A05000111FB /* Debug */ = {
+		CE66DED827EC54B800B88348 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CE8922F827E88A05000111FB /* Release */ = {
+		CE66DED927EC54B800B88348 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -276,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE8922EA27E88A04000111FB /* Build configuration list for PBXProject "Databases" */ = {
+		CE66DECB27EC54B800B88348 /* Build configuration list for PBXProject "DataBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8922F427E88A05000111FB /* Debug */,
-				CE8922F527E88A05000111FB /* Release */,
+				CE66DED527EC54B800B88348 /* Debug */,
+				CE66DED627EC54B800B88348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8922F627E88A05000111FB /* Build configuration list for PBXNativeTarget "Databases" */ = {
+		CE66DED727EC54B800B88348 /* Build configuration list for PBXNativeTarget "DataBase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE8922F727E88A05000111FB /* Debug */,
-				CE8922F827E88A05000111FB /* Release */,
+				CE66DED827EC54B800B88348 /* Debug */,
+				CE66DED927EC54B800B88348 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE8922E727E88A04000111FB /* Project object */;
+	rootObject = CE66DEC827EC54B800B88348 /* Project object */;
 }
